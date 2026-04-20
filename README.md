@@ -60,19 +60,23 @@ Output: ⚠️ I only answer finance-related questions.
 ---
 
 ## ▶️ Run Locally
-bash
+```
 git clone https://github.com/Somnath29/AI-Passive-Income-Advisor.git
 cd AI-Passive-Income-Advisor
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 
 📂 Structure
-app.py
-advisor.py
-prompt_builder.py
-financial_logic.py
-config.py
+```
+.
+├── app.py                 
+├── advisor.py
+├── prompt_builder.py       
+├── financial_logic.py          
+├── config.py         
+```
 
 
 ⚠️ Disclaimer
